@@ -1,0 +1,45 @@
+body{
+    background-image: url("/image/chicago.jpg");
+    background-size: cover;
+    position: relative;
+    font-family: 'Roboto Condensed';
+}
+body::after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.6);
+    z-index: -1;
+}
+.navbar > a{
+    color: #FF8A00;
+}
+.category-list{
+    padding: 0 60px 0px 60px;
+}
+.category{
+  font-size: 36px;
+}
+.movie-item{
+    width: 220px;
+}
+.poster-holder{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+/* .poster-holder > img{
+    object-fit: cover;
+} */
+.movie-title{
+    text-align: center;
+    color: white;
+}
+.buy-btn{
+    width: 200px;
+    border-radius: 15px;
+    background-color: #FF8A00;
+    color: white;
+    text-align: center;
+}

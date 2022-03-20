@@ -1,0 +1,65 @@
+body{
+    background-image: url("/image/chicago.jpg");
+    background-size: cover;
+    position: relative;
+    font-family: 'Roboto Condensed';
+}
+body::after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(24, 23, 23, 0.4);
+    z-index: -1;
+}
+.breadcrumb > a{
+    color: white;
+
+}
+.navbar > a{
+    color: #FF8A00;
+}
+.movie-btn{
+    width: 45%;
+    border-radius: 10px; background-color: #FF8A00; color: white;
+    font-size: 1.5rem;
+}
+.date-item{
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.date-item > p {
+    text-align: center;
+    margin: 10px;
+}
+.date-item:hover{
+    background-color: #FF8A00;
+}
+.movie-timetable--theater{
+    border-bottom: 1px white solid;
+
+}
+.theater-info{
+    text-align: center;
+    background-color: #FF8A00;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    height: 100%;
+}
+.movie-time-item{
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.movie-time-item{
+    cursor: pointer;
+    text-align: center;
+}
+.movie-time-item:hover{
+    background-color: #FF8A00;
+}
