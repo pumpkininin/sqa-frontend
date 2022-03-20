@@ -1,0 +1,25 @@
+body{
+    background-image: url("/image/chicago.jpg");
+    background-size: cover;
+    position: relative;
+    font-family: 'Roboto Condensed';
+}
+body::after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.6);
+    z-index: -1;
+}
+.navbar > a{
+    color: #FF8A00;
+}
+.breadcrumb > a{
+    color: white;
+
+}
+.item > img {
+    object-fit: cover;
+    width: 90%;
+}
